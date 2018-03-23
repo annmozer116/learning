@@ -1,140 +1,8 @@
 <DOCTYPE html>
     <html>
     <head>
-        <style>
-            body{
-                font-family: Arial, Helvetica, sans-serif
-            }
-            .Window-Bar {
-                /* width: 1280px; */
-                 /*height: 20px;*/
-                /* border-radius: 5px; */
-                padding:0.5em 12px;
-                background-image: linear-gradient(to bottom, #e7e6e7, #d1d0d1);
-                box-shadow: inset 0 -0.5px 0.5px 0 rgba(0, 0, 0, 0.2), inset 0 0.5px 0.5px 0 rgba(255, 255, 255, 0.6);
-            }
-            .Button-Base {
-                padding: 0.5em 1em 0.5em 1em;
-                margin-right: 0px;
-                margin-left: 0px;
-                border-radius: 4px;
-                font-size: 13px;
-                display:inline-block;
-                /*height: 22px;*/
-                text-align: center;
-                background-image: linear-gradient(to bottom, #fefefe, #f1f1f1);
-                box-shadow: 0 0.5px 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0.5px rgba(0, 0, 0, 0.1);
-            }
-            .selected{
-                background-image: grey;
-                color:white;
-            }
-            .under-button{
-                border: 1px grey;
 
-            }
-            .noborder{
-                border-radius: 0px;
-            }
-            .lborder{
-                border-radius: 4px 0px 0px 4px;
-            }
-            .rborder{
-                border-radius: 0px 4px 4px 0px;
-            }
-            .grey-text{
-                color: grey
-            }
-            #container{
-                margin:0;
-                display:flex;
-                /*justify-content: flex-start;*/
-            }
-            #nav{
-                width:20%;
-
-                background-blend-mode: overlay, normal;
-                background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(rgba(230, 230, 230, 0.3), rgba(230, 230, 230, 0.3));
-                box-shadow: 1px 0 1px 0 rgba(74, 74, 74, 0.24);
-            }
-            #content{
-                width:74%;
-                margin: 10px 3% auto 3%;
-
-            }
-            .year {
-                font-family: HelveticaNeue;
-                font-size: 26px;
-                font-weight: 300;
-                font-style: normal;
-                font-stretch: normal;
-                line-height: normal;
-                letter-spacing: 1.9px;
-                color: #1d2022;
-            }
-            #element{
-                display: flex;
-                justify-content: space-between;
-                flex-wrap:wrap;
-            }
-
-            #month{
-                width:214px;
-                height: 195px;
-                margin-bottom: 15px;
-                margin-inside: 10px;
-            }
-            table{
-                width:auto;
-                height: auto;
-            }
-            td{
-                text-align: center;
-            }
-
-
-            .row{
-                display: flex;
-                justify-content: space-between;
-                flex-wrap:nowrap;
-            }
-
-            .month-name{
-                font-size: 16px;
-                font-weight: 300;
-                font-style: normal;
-                font-stretch: normal;
-                line-height: normal;
-                letter-spacing: 1.1px;
-                text-align: left;
-                color: #e30613;
-            }
-            #calendar-element{
-                height: 10px;
-                opacity: 0.59;
-                font-family: HelveticaNeue;
-                font-size: 8px;
-                font-weight: 500;
-                font-style: normal;
-                font-stretch: normal;
-                line-height: normal;
-                letter-spacing: 0.6px;
-                text-align: center;
-                color: #949494;
-            }
-            .date{
-                font-size: 12px;
-                color:#cdcdcd;
-            }
-
-            .invisible{
-                visibility: hidden;
-            }
-            td{
-                padding:5px;
-            }
-
-        </style>
+        <link rel="stylesheet" href="/static/css/index.css">
         <title>Hello</title>
     </head>
     <body style="margin:0px 0px 0px 0px">
@@ -157,23 +25,93 @@
         </div>
 
     </div>
-    <div id="container" style="height:100%">
-        <div id="nav">ffff</div>
-        <div id="content">
-            <div class="year" style="margin-bottom:29px">
-                2018
-            </div>
-            <div id="element" >
-                <div id="month">
-                    <table>
+    <div id="container" style="">
+        <div id="nav" style="font-size:12px">
+
+                <div id="content" style="">
+                    <div class="list-header">
+                        mybox@directual.com
+                    </div>
+                    <div class="row-1" style="justify-content: flex-start;">
+                        <div class="checkbox"></div>
+                        <div>holidays</div>
+                    </div>
+                    <div class="row-1" style="justify-content: flex-start;">
+                        <div class="checkbox"></div>
+                        <div>holidays</div>
+                    </div>
+                    <div class="row-1" style="justify-content: flex-start;">
+                        <div class="checkbox"></div>
+                        <div>holidays</div>
+                    </div>
+                    <div class="row-1" style="justify-content: flex-start;">
+                        <div class="checkbox"></div>
+                        <div>holidays</div>
+                    </div>
+                    <div class="row-1" style="justify-content: flex-start;">
+                        <div class="checkbox"></div>
+                        <div>holidays</div>
+                    </div>
+                    <div class="list-header">
+                        mybox@directual.com
+                    </div>
+                    <div class="row-1" style="justify-content: flex-start;">
+                        <div class="checkbox"></div>
+                        <div>holidays</div>
+                    </div>
+                    <div class="row-1" style="justify-content: flex-start;">
+                        <div class="checkbox"></div>
+                        <div>holidays</div>
+                    </div>
+                    <div class="row-1" style="justify-content: flex-start;">
+                        <div class="checkbox"></div>
+                        <div>holidays</div>
+                    </div>
+                    <div class="row-1" style="justify-content: flex-start;">
+                        <div class="checkbox"></div>
+                        <div>holidays</div>
+                    </div>
+                    <div class="row-1" style="justify-content: flex-start;">
+                        <div class="checkbox"></div>
+                        <div>holidays</div>
+                    </div>
+                    <div class="list-header">
+                        mybox@directual.com
+                    </div>
+                    <div class="row-1" style="justify-content: flex-start;">
+                        <div class="checkbox"></div>
+                        <div>holidays</div>
+                    </div>
+                    <div class="row-1" style="justify-content: flex-start;">
+                        <div class="checkbox"></div>
+                        <div>holidays</div>
+                    </div>
+                    <div class="row-1" style="align-items: flex-start; justify-content: flex-start">
+                        <div class="checkbox"></div>
+                        <div>holidays</div>
+                        <div class="today" style="text-align: center;align-self: flex-end;">1</div>
+                    </div>
+                    <div class="row-1" style="justify-content: flex-start;">
+                        <div class="checkbox"></div>
+                        <div>holidays</div>
+                    </div>
+                    <div class="row-1" style="justify-content: flex-start;">
+                        <div class="checkbox"></div>
+                        <div>holidays</div>
+                    </div>
+                </div>
+            <div style="align-self: center">
+                <hr align="left">
+                <div id="month" style="width:auto;text-align: center;font-size:12px">
+                    <table style="">
                         <tr>
                             <td style="padding: 0px;">
-                                <div class="month-name" style="margin-bottom: 0px">январь
+                                <div class="month-name" style="margin-bottom: 0px">май
                                 </div>
                             </td>
                         </tr>
                     </table>
-                    <!--<div class="month-name" style="margin-bottom: 5px">январь</div>-->
+                    <!--<div class="month-name" style="margin-bottom: 5px">май</div>-->
                     <table>
                         <tr>
                             <td id="calendar-element">SUN</td>
@@ -185,7 +123,7 @@
                             <td id="calendar-element">SAT</td>
                         </tr>
                         <tr>
-                            <td class = "invisible">1</td>
+                            <td class = "today">1</td>
                             <td>2</td>
                             <td >3</td>
                             <td >4</td>
@@ -224,10 +162,87 @@
                             <td >29</td>
                             <td >30</td>
                             <td >31</td>
-                            <td >1</td>
-                            <td >2</td>
+                            <td class='invisible'>1</td>
+                            <td class='invisible'>2</td>
+                            <td class='invisible'>3</td>
+                            <td class='invisible'>4</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div id="content" style="width:74%">
+            <div class="year" style="margin-bottom:29px">
+                2018
+            </div>
+            <div id="element" >
+                <div id="month">
+                    <table>
+                        <tr>
+                            <td style="padding: 0px;">
+                                <div class="month-name" style="margin-bottom: 0px">май
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <!--<div class="month-name" style="margin-bottom: 5px">май</div>-->
+                    <table>
+                        <tr>
+                            <td id="calendar-element">SUN</td>
+                            <td id="calendar-element">MON</td>
+                            <td id="calendar-element">TUE</td>
+                            <td id="calendar-element">WED</td>
+                            <td id="calendar-element">THU</td>
+                            <td id="calendar-element">FRI</td>
+                            <td id="calendar-element">SAT</td>
+                        </tr>
+                        <tr>
+                            <td class = "today">1</td>
+                            <td>2</td>
                             <td >3</td>
                             <td >4</td>
+                            <td >5</td>
+                            <td >6</td>
+                            <td >7</td>
+                        </tr>
+                        <tr>
+                            <td >8</td>
+                            <td >9</td>
+                            <td >10</td>
+                            <td >11</td>
+                            <td >12</td>
+                            <td >13</td>
+                            <td >14</td>
+                        </tr>
+                        <tr>
+                            <td >15</td>
+                            <td >16</td>
+                            <td >17</td>
+                            <td >18</td>
+                            <td >19</td>
+                            <td >20</td>
+                            <td >21</td>
+                        </tr>
+                        <tr>
+                            <td >22</td>
+                            <td >23</td>
+                            <td >24</td>
+                            <td >25</td>
+                            <td >26</td>
+                            <td >27</td>
+                            <td >28</td>
+                        </tr>
+                        <tr>
+                            <td >29</td>
+                            <td >30</td>
+                            <td >31</td>
+                            <td class='invisible'>1</td>
+                            <td class='invisible'>2</td>
+                            <td class='invisible'>3</td>
+                            <td class='invisible'>4</td>
                         </tr>
                     </table>
                 </div>
@@ -235,12 +250,12 @@
                     <table>
                         <tr>
                             <td style="padding: 0px;">
-                                <div class="month-name" style="margin-bottom: 0px">январь
+                                <div class="month-name" style="margin-bottom: 0px">май
                                 </div>
                             </td>
                         </tr>
                     </table>
-                    <!--<div class="month-name" style="margin-bottom: 5px">январь</div>-->
+                    <!--<div class="month-name" style="margin-bottom: 5px">май</div>-->
                     <table>
                         <tr>
                             <td id="calendar-element">SUN</td>
@@ -302,12 +317,12 @@
                     <table>
                         <tr>
                             <td style="padding: 0px;">
-                                <div class="month-name" style="margin-bottom: 0px">январь
+                                <div class="month-name" style="margin-bottom: 0px">май
                                 </div>
                             </td>
                         </tr>
                     </table>
-                    <!--<div class="month-name" style="margin-bottom: 5px">январь</div>-->
+                    <!--<div class="month-name" style="margin-bottom: 5px">май</div>-->
                     <table>
                         <tr>
                             <td id="calendar-element">SUN</td>
@@ -369,12 +384,12 @@
                     <table>
                         <tr>
                             <td style="padding: 0px;">
-                                <div class="month-name" style="margin-bottom: 0px">январь
+                                <div class="month-name" style="margin-bottom: 0px">май
                                 </div>
                             </td>
                         </tr>
                     </table>
-                    <!--<div class="month-name" style="margin-bottom: 5px">январь</div>-->
+                    <!--<div class="month-name" style="margin-bottom: 5px">май</div>-->
                     <table>
                         <tr>
                             <td id="calendar-element">SUN</td>
@@ -436,12 +451,12 @@
                     <table>
                         <tr>
                             <td style="padding: 0px;">
-                                <div class="month-name" style="margin-bottom: 0px">январь
+                                <div class="month-name" style="margin-bottom: 0px">май
                                 </div>
                             </td>
                         </tr>
                     </table>
-                    <!--<div class="month-name" style="margin-bottom: 5px">январь</div>-->
+                    <!--<div class="month-name" style="margin-bottom: 5px">май</div>-->
                     <table>
                         <tr>
                             <td id="calendar-element">SUN</td>
@@ -503,12 +518,12 @@
                     <table>
                         <tr>
                             <td style="padding: 0px;">
-                                <div class="month-name" style="margin-bottom: 0px">январь
+                                <div class="month-name" style="margin-bottom: 0px">май
                                 </div>
                             </td>
                         </tr>
                     </table>
-                    <!--<div class="month-name" style="margin-bottom: 5px">январь</div>-->
+                    <!--<div class="month-name" style="margin-bottom: 5px">май</div>-->
                     <table>
                         <tr>
                             <td id="calendar-element">SUN</td>
@@ -570,12 +585,12 @@
                     <table>
                         <tr>
                             <td style="padding: 0px;">
-                                <div class="month-name" style="margin-bottom: 0px">январь
+                                <div class="month-name" style="margin-bottom: 0px">май
                                 </div>
                             </td>
                         </tr>
                     </table>
-                    <!--<div class="month-name" style="margin-bottom: 5px">январь</div>-->
+                    <!--<div class="month-name" style="margin-bottom: 5px">май</div>-->
                     <table>
                         <tr>
                             <td id="calendar-element">SUN</td>
@@ -637,12 +652,12 @@
                     <table>
                         <tr>
                             <td style="padding: 0px;">
-                                <div class="month-name" style="margin-bottom: 0px">январь
+                                <div class="month-name" style="margin-bottom: 0px">май
                                 </div>
                             </td>
                         </tr>
                     </table>
-                    <!--<div class="month-name" style="margin-bottom: 5px">январь</div>-->
+                    <!--<div class="month-name" style="margin-bottom: 5px">май</div>-->
                     <table>
                         <tr>
                             <td id="calendar-element">SUN</td>
@@ -704,12 +719,12 @@
                     <table>
                         <tr>
                             <td style="padding: 0px;">
-                                <div class="month-name" style="margin-bottom: 0px">январь
+                                <div class="month-name" style="margin-bottom: 0px">май
                                 </div>
                             </td>
                         </tr>
                     </table>
-                    <!--<div class="month-name" style="margin-bottom: 5px">январь</div>-->
+                    <!--<div class="month-name" style="margin-bottom: 5px">май</div>-->
                     <table>
                         <tr>
                             <td id="calendar-element">SUN</td>
@@ -771,12 +786,12 @@
                     <table>
                         <tr>
                             <td style="padding: 0px;">
-                                <div class="month-name" style="margin-bottom: 0px">январь
+                                <div class="month-name" style="margin-bottom: 0px">май
                                 </div>
                             </td>
                         </tr>
                     </table>
-                    <!--<div class="month-name" style="margin-bottom: 5px">январь</div>-->
+                    <!--<div class="month-name" style="margin-bottom: 5px">май</div>-->
                     <table>
                         <tr>
                             <td id="calendar-element">SUN</td>
@@ -838,12 +853,12 @@
                     <table>
                         <tr>
                             <td style="padding: 0px;">
-                                <div class="month-name" style="margin-bottom: 0px">январь
+                                <div class="month-name" style="margin-bottom: 0px">май
                                 </div>
                             </td>
                         </tr>
                     </table>
-                    <!--<div class="month-name" style="margin-bottom: 5px">январь</div>-->
+                    <!--<div class="month-name" style="margin-bottom: 5px">май</div>-->
                     <table>
                         <tr>
                             <td id="calendar-element">SUN</td>
@@ -905,12 +920,12 @@
                     <table>
                         <tr>
                             <td style="padding: 0px;">
-                                <div class="month-name" style="margin-bottom: 0px">январь
+                                <div class="month-name" style="margin-bottom: 0px">май
                                 </div>
                             </td>
                         </tr>
                     </table>
-                    <!--<div class="month-name" style="margin-bottom: 5px">январь</div>-->
+                    <!--<div class="month-name" style="margin-bottom: 5px">май</div>-->
                     <table>
                         <tr>
                             <td id="calendar-element">SUN</td>
