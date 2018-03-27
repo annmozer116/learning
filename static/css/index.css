@@ -47,14 +47,15 @@ body{
     /*justify-content: flex-start;*/
 }
 #nav{
-    width:20%;
+    width:220px;
     background-blend-mode: overlay, normal;
     background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(rgba(230, 230, 230, 0.3), rgba(230, 230, 230, 0.3));
     box-shadow: 1px 0 1px 0 rgba(74, 74, 74, 0.24);
     min-width: 170px;
     display:flex;
-    height: auto;
+    height: 100%;
     flex-direction: column;
+
 }
 #content{
     /*width:74%;*/
@@ -80,8 +81,6 @@ body{
 #month{
     width:214px;
     height: 195px;
-    margin-bottom: 15px;
-    margin-inside: 10px;
 }
 table{
     width:auto;
@@ -89,6 +88,7 @@ table{
 }
 td{
     text-align: center;
+    font-size:12px;
 }
 
 .list-header{
@@ -99,7 +99,7 @@ td{
     line-height: normal;
     letter-spacing: -0.3px;
     text-align: left;
-    margin-top: 2em;
+    margin-top: 0.5em;
     color: #575757;
 }
 
