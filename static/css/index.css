@@ -44,6 +44,7 @@ body{
 #container{
     margin:0;
     display:flex;
+    max-height: 900px;
     /*justify-content: flex-start;*/
 }
 #nav{
@@ -53,8 +54,9 @@ body{
     box-shadow: 1px 0 1px 0 rgba(74, 74, 74, 0.24);
     min-width: 170px;
     display:flex;
-    height: 100%;
+
     flex-direction: column;
+
 
 }
 #content{
@@ -90,6 +92,9 @@ td{
     text-align: center;
     font-size:12px;
 }
+.small{
+    font-size:11px;
+}
 
 .list-header{
     font-size: 13px;
@@ -102,12 +107,17 @@ td{
     margin-top: 0.5em;
     color: #575757;
 }
+.clear-fix{
+    clear:both;
+}
 
 .checkbox {
     width: 1em;
     height: 1em;
     /*padding: 1px 9px;*/
     margin-right: 15px;
+    padding:0.5px;
+    float:left;
 
     border-radius: 4px;
     background-color: slateblue;
@@ -121,21 +131,34 @@ td{
     justify-content: space-between;
     flex-wrap:nowrap;
 }
+.overflow-string{
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 20px;
+    text-overflow: ellipsis;
+
+}
 .row-1{
     margin-left: 1em;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap:nowrap;
     margin-top: 0.7em;
+
 }
 .today{
-    width:1em;
-    height: 1em;
+    width:1.2em;
+    height: 1.2em;
     border-radius: 100%;
+    display:block;
+    text-align: center;
 
     background-color: blueviolet;
     color:white;
 }
+.scroll{
+    overflow-y:scroll;
+    height: 62%;
+    overflow-x: hidden;
+}
+
 
 .month-name{
     font-size: 16px;
