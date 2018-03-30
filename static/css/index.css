@@ -122,9 +122,19 @@ td{
     float:left;
 
     border-radius: 4px;
-    background-color: slateblue;
+    background-color: grey;
     /*background-color: #e30613;*/
     border: solid 1px rgba(0, 0, 0, 0.23);
+}
+
+.yellow{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: deepskyblue;
 }
 
 
@@ -154,7 +164,7 @@ td{
     display:block;
     text-align: center;
 
-    background-color: blueviolet;
+    background-color: indianred;
     color:white;
 }
 .scroll{
